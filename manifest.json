@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Get Up",
+    "version": "1.0",
+    "description": "Reminds you to stand up!",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "alarms",
+        "notifications",
+        "storage"
+    ]
+}
